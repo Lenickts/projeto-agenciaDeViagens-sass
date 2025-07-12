@@ -1,7 +1,8 @@
 # Projeto Agencia de Viagens - Refatorado
-Projeto refatorado para utilização da metodologia BEM.
+Projeto refatorado para utilização de pré-processador SASS.
 
-- ✅ **Metodologia BEM** (Block, Element, Modifier)
+- ✅ **SASS**
+- ✅ Metodologia BEM (Block, Element, Modifier)
 - ✅ Responsividade avançada com media queries
 - ✅ Layouts flexíveis com CSS Grid & Flexbox
 - ✅ Unidades relativas (rem, %, vh/vw) para adaptação perfeita
@@ -9,6 +10,9 @@ Projeto refatorado para utilização da metodologia BEM.
 
 ## Aprendizados:
 
+- ✨ Definir variáveis no Sass para reutilizar valores no CSS;
+- ✨ Explicar o conceito de aninhamento para organizar regras de estilo;
+- ✨ Demonstrar a conversão de arquivos Sass para CSS no terminal.
 - ✨ Dominar breakpoints estratégicos
 - ✨ Balancear Grid e Flexbox para layouts complexos
 - ✨ Otimizar imagens para diferentes telas
