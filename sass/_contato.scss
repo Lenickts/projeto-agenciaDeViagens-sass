@@ -1,0 +1,92 @@
+@use 'variaveis';
+@use 'mixins';
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 5px;
+    width: 80%;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        flex: 1;
+    }
+    &__titulo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        flex: 2;
+    }
+    &__form-titulo {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    &__input-container {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    &__input-item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex: 1;
+    }
+    &__input-item input {
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: rgb(240,250,245);
+        width: 100%;
+    }
+    &__textarea-container {
+        max-width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    &__textarea {
+        width: 100%;
+        padding: 15px;
+        border: 2px solid #e0e0e0;
+        border-radius: 12px;
+        font-size: 16px;
+        color: #333;
+        background-color: #f9f9f9;
+        resize: vertical;
+        min-height: 150px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    &__textarea:focus {
+        outline: none;
+        border-color: #4a90e2;
+        background-color: #fff;
+        box-shadow: 0 4px 15px rgba(74, 144, 226, 0.2);
+    }
+    &__textarea::placeholder {
+        color: #aaa;
+        font-style: italic;
+    }
+    &__textarea-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5px;
+    }
+    &__char-counter {
+        font-size: 12px;
+        color: #888;
+        background: #f0f0f0;
+        padding: 3px 8px;
+        border-radius: 10px;
+    }
+    &__textarea:hover {
+        border-color: #b3b3b3;
+    }
+}

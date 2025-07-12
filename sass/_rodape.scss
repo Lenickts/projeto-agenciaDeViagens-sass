@@ -1,0 +1,27 @@
+@use 'variaveis';
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    font-family: variaveis.$fonte-robo;
+    padding: 15px;
+    background-color: variaveis.$bg-secundario;
+    color: white;
+
+    &__lista {
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        padding: 5px;
+    }
+    &__link {
+        color: white;
+        font-weight: 600;
+        letter-spacing: 3px;
+    }
+    &__link:hover {
+        font-size: 20px;
+        transition: all 0.5s ease;
+    }
+}

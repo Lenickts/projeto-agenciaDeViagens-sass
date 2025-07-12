@@ -1,0 +1,61 @@
+@use 'variaveis';
+@use 'cabecalho';
+@use 'mixins';
+@use 'tabelas';
+@use 'depoimentos';
+@use 'contato';
+@use 'rodape';
+@use 'device-mw-767';
+@use 'device-mw-1024';
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* nav, main, footer */
+    grid-template-areas:
+        "nav"
+        "main"
+        "footer";
+}
+
+.main{
+    font-family: variaveis.$fonte-Generic;
+    grid-area: main;
+    background-color: variaveis.$bg-primario;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    width: 80%;
+
+    &__titulo{
+        @include mixins.titulo;
+    }
+    &__subtitulo {
+        @include mixins.subtitulo;
+    }
+    &__subtituloH4 {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+    &__paragrafo {
+        margin-bottom: 1rem;
+        margin-left: 1.4rem;
+        line-height: 1.6;
+    }
+    &__lista {
+        padding-left: 50px;
+        margin-bottom: 1.5rem;
+    }
+    &__item {
+        margin-bottom: 0.5rem;
+    }
+}

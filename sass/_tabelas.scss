@@ -1,0 +1,26 @@
+@use 'mixins';
+
+.tabela{
+    @include mixins.tabela-padrao;
+
+    &__cabecalho{
+        @include mixins.tabela_cabecalho;
+    }
+    th,td{
+        @include mixins.tabela-row-col;
+    }
+    &__titulo{
+        @include mixins.titulo;
+    }
+}
+.conteudo__tabela {
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+
+._mais-vendidos{
+    width: 70%;
+}
+.tabela_mais_vendidos{
+    height: 10rem;
+}

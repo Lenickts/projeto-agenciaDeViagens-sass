@@ -1,0 +1,15 @@
+//espaço para os import com @use
+@use 'cabecalho';
+@use 'conteudo';
+@use 'variaveis';
+@use 'galeria';
+@use 'rodape';
+
+
+//Reset estilos do navegador
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Agência Criativa Web</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__logo">
+            <img class="nav__img" src="img/logo-transparency.png" alt="Logo da empresa" width="90px">
+        </div>
+        <ul class="nav__lista">
+            <li class="nav__item"><a class="nav__links" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__links" href="#">About</a></li>
+            <li class="nav__item"><a class="nav__links" href="#servicos">Serviços</a></li>
+            <li class="nav__item"><a class="nav__links" href="#depoimentos">Depoimentos</a></li>
+            <li class="nav__item"><a class="nav__links" href="#contato">Contato</a></li>
+        </ul>        
+    </nav>
+    
+    <main class="main">
+        <section class="conteudo">
+            <h1 class="conteudo__titulo">🌍 Bem-vindo à Agência Criativa Web - Sua Jornada Começa Aqui!</h1>
+            <h3 class="conteudo__subtitulo">✈️ Descubra o Mundo com a Maior Agência de Viagens do Brasil</h3>
+            <p class="conteudo__paragrafo">Na Agência Criativa Web, transformamos sonhos em experiências inesquecíveis. Somos especialistas em criar roteiros personalizados, desde destinos paradisíacos até aventuras radicais, garantindo que cada viagem seja única e memorável.</p>
+            <p class="conteudo__paragrafo">Com mais de 15 anos de mercado, já levamos milhares de viajantes aos quatro cantos do planeta, sempre com segurança, conforto e o melhor custo-benefício.</p>        
+        </section>
+        
+        <section class="conteudo" id="servicos">
+            <h3 class="conteudo__subtitulo">🌟 Destaques e Ofertas Imperdíveis</h3>
+            <h4 class="conteudo__subtituloH4">🏝️ Pacotes Promocionais</h4>
+            <ul class="conteudo__lista">
+                <li class="conteudo__item">Caribe All Inclusive – 7 noites em resorts luxuosos com voo incluso</li>
+                <li class="conteudo__item">Europa Encantadora – Roteiro por Paris, Roma e Barcelona</li>
+                <li class="conteudo__item">Aventura na Amazônia – Expedição na maior floresta tropical do mundo</li>
+            </ul>
+            
+            <h4 class="conteudo__subtituloH4">✈️ Voos Baratos para Todo o Mundo</h4>
+            <ul class="conteudo__lista">
+                <li class="conteudo__item">Passagens aéreas com até 40% OFF em destinos nacionais e internacionais</li>
+                <li class="conteudo__item">Promoções relâmpago para quem quer viajar sem gastar muito</li>
+            </ul>
+            
+            <div class="conteudo__tabela">
+                <table class="tabela">
+                    <thead class="tabela__cabecalho">
+                        <tr>
+                            <th>🧳 Pacote de Viagem</th>
+                            <th>🌍 Destino</th>
+                            <th>📅 Duração</th>
+                            <th>💼 Incluso</th>
+                            <th>💰 Preço (R$)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paraíso Tropical</td>
+                            <td>Fernando de Noronha</td>
+                            <td>5 dias / 4 noites</td>
+                            <td>Aéreo ida e volta, hotel 4⭐ com café da manhã, passeio de barco</td>
+                            <td>R$ 4.290,00</td>
+                        </tr>
+                        <tr>
+                            <td>Aventura na Patagônia</td>
+                            <td>El Calafate, Argentina</td>
+                            <td>7 dias / 6 noites</td>
+                            <td>Aéreo, hospedagem + trilhas guiadas no Glaciar Perito Moreno</td>
+                            <td>R$ 6.800,00</td>
+                        </tr>
+                        <tr>
+                            <td>Rota da Cultura Europeia</td>
+                            <td>Lisboa, Paris e Roma</td>
+                            <td>10 dias / 9 noites</td>
+                            <td>Aéreo, hospedagem 3⭐, city tour em cada cidade</td>
+                            <td>R$ 9.500,00</td>
+                        </tr>
+                        <tr>
+                            <td>Encantos de Gramado</td>
+                            <td>Gramado, RS</td>
+                            <td>4 dias / 3 noites</td>
+                            <td>Ônibus executivo, hotel romântico, ingressos p/ Snowland e museus</td>
+                            <td>R$ 2.250,00</td>
+                        </tr>
+                        <tr>
+                            <td>Caribe dos Sonhos</td>
+                            <td>Punta Cana, R. Dominicana</td>
+                            <td>6 dias / 5 noites</td>
+                            <td>Aéreo, resort all-inclusive 5⭐, traslado e seguro viagem</td>
+                            <td>R$ 7.300,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h4 class="conteudo__subtituloH4">🏨 Hospedagem com Conforto e Qualidade</h4>
+            <ul class="conteudo__lista">
+                <li class="conteudo__item">Resorts, hotéis e pousadas selecionados pelos nossos especialistas</li>
+                <li class="conteudo__item">Cancelamento grátis em diversas opções</li>
+            </ul>
+        </section>
+        
+        <section class="collections" id="galeria">
+            <h4 class="collections__titulo">Coleções</h4>
+            <div class="collections__galeria">
+                <div class="collections__item">
+                    <div class="collections__img-card">
+                        <img 
+                            src="img/tropical-paradise.jpg" 
+                            srcset="
+                                img/sm/tropical-paradise-400.jpg 400w,
+                                img/mid/tropical-paradise-800.jpg 800w,
+                                img/big/tropical-paradise-1200.jpg 1200w
+                            "
+                            sizes="(max-width: 600px) 100vw, 
+                                    (max-width: 1024px) 50vw, 
+                                    33vw"
+                            alt="Torres del Paine, Torres de Paine, Chile"
+                            width="400" 
+                            height="200">
+                    </div>
+                    <div class="collections__legenda">
+                        <p>Paraíso Tropical</p>
+                        Foto de <a href="https://unsplash.com/pt-br/@jailam_r?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jailam Rashad</a> na <a href="https://unsplash.com/pt-br/fotografias/litoral-sob-o-ceu-Qe58SmRMcH4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </div>
+                </div>
+                
+                <div class="collections__item">
+                    <div class="collections__img-card">
+                        <img 
+                            src="img/montanha-rochosa.jpg" 
+                            srcset="
+                                img/sm/montanha-rochosa-400.jpg 400w,
+                                img/mid/montanha-rochosa-800.jpg 800w,
+                                img/big/montanha-rochosa-1200.jpg 1200w
+                            "
+                            sizes="(max-width: 600px) 100vw, 
+                                    (max-width: 1024px) 50vw, 
+                                    33vw"
+                            alt="Paraíso Tropical: praia, mar, sol e Maldivas em Maldives"
+                            width="400" 
+                            height="200">
+                    </div>
+                    <div class="collections__legenda">
+                        <p>Montanha Rochosa</p>
+                        Foto de <a href="https://unsplash.com/pt-br/@anqilu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Anqi Lu</a> na <a href="https://unsplash.com/pt-br/fotografias/montanha-rochosa-marrom-sob-o-ceu-azul-durante-o-dia-5S2p2JloFls?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </div>
+                </div>
+                
+                <div class="collections__item">
+                    <div class="collections__img-card">
+                        <img src="img/rota-europeia.jpg"
+                            srcset="
+                                img/sm/rota-europeia-400.jpg 400w,
+                                img/mid/rota-europeia-800.jpg 800w,
+                                img/big/rota-europeia-1200.jpg 1200w
+                            "
+                            sizes="(max-width: 600px) 100vw, 
+                                    (max-width: 1024px) 50vw, 
+                                    33vw"
+                            alt="Rota Europeia: rodovia com uma montanha ao fundo"
+                            width="400px"
+                            height="200px">
+                    </div>
+                    <div class="collections__legenda">
+                        <p>Rota Européia</p>
+                        Foto de <a href="https://unsplash.com/pt-br/@satyamkapoor?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Satyam Kapoor</a> na <a href="https://unsplash.com/pt-br/fotografias/uma-rodovia-com-uma-montanha-ao-fundo-GLsrqTRL4Ew?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </div>
+                </div>
+                
+                <div class="collections__item">
+                    <div class="collections__img-card">
+                        <img src="img/gramado.jpg"
+                            srcset="
+                                img/sm/gramado-400.jpg 400w,
+                                img/mid/gramado-800.jpg 800w,
+                                img/big/gramado-1200.jpg 1200w
+                            "
+                            sizes="(max-width: 600px) 100vw, 
+                                    (max-width: 1024px) 50vw, 
+                                    33vw"
+                            alt="Rua Torta - Bairro Belverede, Gramado - RS, Brasil"
+                            width="400px"
+                            height="200px">
+                    </div>
+                    <div class="collections__legenda">
+                        <p>Gramado, RS</p>
+                        Foto de <a href="https://unsplash.com/pt-br/@giovanamiketen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Giovana Miketen</a> na <a href="https://unsplash.com/pt-br/fotografias/uma-pessoa-esta-andando-por-uma-rua-em-uma-cidade-pequena-tKm_hqQBzQ8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </div>
+                </div>
+                
+                <div class="collections__item">
+                    <div class="collections__img-card">
+                        <img src="img/caribe.jpg"
+                            srcset="
+                                img/sm/caribe-400.jpg 400w,
+                                img/mid/caribe-800.jpg 800w,
+                                img/big/caribe-1200.jpg 1200w
+                            "
+                            sizes="(max-width: 600px) 100vw, 
+                                    (max-width: 1024px) 50vw, 
+                                    33vw"
+                            alt="1000 Steps, Caribbean Netherlands"
+                            width="400px" 
+                            height="200px">
+                    </div>
+                    <div class="collections__legenda">
+                        <p>Caribe</p>
+                        Foto de <a href="https://unsplash.com/pt-br/@jannicknijholt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jannick Nijholt</a> na <a href="https://unsplash.com/pt-br/fotografias/um-barco-na-agua-g5TaobGIeZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="conteudo__tabela _mais-vendidos">
+            <h2 class="tabela__titulo"> 🏆 Viagens mais vendidas</h2>
+            <table class="tabela tabela_mais_vendidos">
+                <thead class="tabela__cabecalho">
+                    <tr>
+                        <th>Europa</th>
+                        <th>Amériuca do Sul</th>
+                        <th>Ásia</th>
+                        <th>África</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Paris</td>
+                        <td>Fernando de Noronha</td>
+                        <td>Bali</td>
+                        <td>Marrakech</td>
+                    </tr>
+                    <tr>
+                        <td>Roma</td>
+                        <td>Machu Picchu</td>
+                        <td>Tóquio</td>
+                        <td>Safari na Tanzânia</td>
+                    </tr>
+                    <tr>
+                        <td>Barcelona</td>
+                        <td>Patagônia</td>
+                        <td>Dubai</td>
+                        <td>Cabo da Boa Esperança</td>
+                    </tr>
+                </tbody>
+            </table>                        
+        </section>
+        
+        <section class="testimonials" id="depoimentos">
+            <h2 class="testimonials__titulo">📢 Depoimentos de Clientes</h2>
+            <div class="testimonials__item">
+                <p class="testimonials__citacao">"Minha viagem para a Grécia foi incrível! A Agência Criativa Web cuidou de tudo, desde os voos até os passeios. Recomendo demais!"</p>
+                <p class="testimonials__autor">– Ana Clara ⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="testimonials__item">
+                <p class="testimonials__citacao">"Consegui um pacote para Cancún com um preço imbatível. A equipe foi super atenciosa e resolveu tudo rapidamente."</p>
+                <p class="testimonials__autor">– Carlos Eduardo ⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="testimonials__item">
+                <p class="testimonials__citacao">"Foi tudo tranquilo."</p>
+                <p class="testimonials__autor">– Jennifer ⭐⭐⭐</p>
+            </div>
+        </section>     
+        
+        <section class="contact" id="contato">
+            <div class="contact__info">
+                <h2 class="contact__titulo">📩 Fale Conosco</h2>
+                <p class="contact__texto">Quer planejar sua próxima aventura? Entre em contato agora mesmo!</p>
+                <p class="contact__texto">📞 (11) 1234-5678</p>
+                <p class="contact__texto">📧 contato@venturehorizon.com.br</p>
+                <p class="contact__texto">📍 São Paulo, Rio de Janeiro, Belo Horizonte e Online</p>
+                <br>
+                <p class="contact__texto">💻 Caso queira tirar dúvidas, deixe um comentário.</p>
+            </div>
+            
+            <form class="contact__form">
+                <h4 class="contact__form-titulo">Dados de contato</h4>
+                <div class="contact__input-container">
+                    <div class="contact__input-item">
+                        <label for="name">Nome</label>
+                        <input type="text" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="contact__input-item">
+                        <label for="tel">Telefone</label>
+                        <input type="number" placeholder="(xx) 9xxxx-xxxx">
+                    </div>
+                </div>
+                <div class="contact__textarea-container">
+                    <textarea 
+                        id="textArea" 
+                        name="message" 
+                        rows="5" 
+                        placeholder="Digite sua mensagem aqui..." 
+                        class="contact__textarea"
+                    ></textarea>
+                    <div class="contact__textarea-footer">
+                        <span class="contact__char-counter">0/500</span>
+                    </div>
+                </div>
+            </form>            
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <ul class="footer__lista">
+            <li class="footer__item"><a class="footer__link" href="https://github.com/Lenickts" target="_blank">Github</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://www.linkedin.com/in/nickchols/" target="_blank">Linkedin</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://x.com/" target="_blank">Twitter</a></li>
+            <li class="footer__item"><a class="footer__link" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

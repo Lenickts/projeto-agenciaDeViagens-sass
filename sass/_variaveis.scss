@@ -1,0 +1,16 @@
+@use 'sass:math';
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&family=Telex&display=swap&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Josefin / Rubik Wet / Telex / Gloria Hallelujah / Roboto Mono */
+
+
+$fonte-titulo: "Rubik Wet Paint", system-ui;
+$fonte-main: 'Telex';
+$fonte-sec: "Josefin Sans", sans-serif;
+$fonte-robo: "Roboto Mono", monospace;
+$fonte-Generic: "Montserrat", sans-serif;
+
+$bg-primario: #F8F8FF;
+$bg-secundario: #333;
+$tam-fonte: 1rem;
+$lista-padrao: none;
+$borda-padrao: 8px;

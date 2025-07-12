@@ -1,0 +1,32 @@
+.testimonials {
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+    width: 80%;
+
+    &__titulo {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    &__item {
+        border-left: 3px solid #ccc;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+    &__texto {
+        margin: 5px 0;
+    }
+    &__autor {
+        font-weight: bold;
+    }
+    &__citacao {
+        display: block;
+        margin-bottom: 8px;
+        font-style: italic;
+    }
+}

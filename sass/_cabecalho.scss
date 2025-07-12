@@ -1,0 +1,41 @@
+/* espaço para os import com @use */
+@use 'variaveis';
+@use 'mixins';
+
+// Navegação
+.nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    font-family: var(--fonte-Generic);
+    font-size: 1.5rem;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
+    // z-index: 1000;
+
+    &__logo{
+        border-radius: 50px;
+    }
+    &__img{
+        width: 130px;
+    }
+    &__lista{
+        list-style-type:  variaveis.$lista-padrao;
+        display: flex;
+        gap: 30px;
+        padding: 5px;
+        align-items: center;
+    }
+    &__links {
+        color: #333;
+        font-weight: 600;
+    }
+    &__links:hover {
+        @include mixins.hover;
+    }
+}

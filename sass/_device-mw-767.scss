@@ -1,0 +1,103 @@
+@use 'variaveis';
+
+@media (min-width: 300px) and (max-width: 843px) {
+    body {
+        display: flex;
+        flex-direction: column;        
+    }
+    
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        &__lista {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        &__logo img {
+            width: 200px;
+        }
+    }    
+    
+    .main {
+        margin-top: 20px;
+    }
+    
+    .conteudo {
+        width: 100%;
+
+        &__lista {
+            padding-left: 30px;
+        }
+    }
+
+                    /* Tabelas*/
+    // Preços
+    .tabela {
+        font-size: 12px;
+
+        &__cabecalho {
+            font-size: 12px;
+        }
+        th, td {
+            padding: 6px;
+        }
+    }
+    /* Viagens mais vendidas */
+    .tabela_mais_vendidos {
+        width: 100%;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+    /* Galeria */
+    .collections__galeria {
+        flex-direction: column;
+        align-items: center;
+
+        &__img-card {
+            width: 200px;
+        }
+    
+        &__img-card img{
+            width: 100%;
+            max-width: 100px;
+        }
+    }
+
+    /* Depoimentos */
+    .testimonials {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    /* Contato */
+    .contact {
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px; 
+        width: 100%;
+
+        &__input-container {
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        &__lista {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}

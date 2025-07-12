@@ -1,0 +1,58 @@
+@use 'variaveis';
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column; 
+    }   
+    
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .nav__logo img {
+        width: 200px;
+    }   
+    
+    .nav__lista {
+        align-items: center;
+        gap: 40px;
+        padding: 5px;
+    }
+    
+    .conteudo {
+        width: 100%;
+    }
+    
+    .conteudo__lista {
+        padding-left: 30px;
+    }
+    
+    .container-section-table table {
+        width: 100%;
+        height: auto;
+        font-size: 0.9rem;
+    }
+    
+    .tabela-cabecalho {
+        font-size: 1rem;
+    }
+    
+    .container-section-contact {
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px; 
+        width: 100%;
+    }
+    
+    .contact__input-container {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .collections__galeria {
+        justify-content: center;
+    }
+}
