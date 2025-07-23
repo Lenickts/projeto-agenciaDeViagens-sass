@@ -3,7 +3,8 @@
 
 
 .collections{
-    width: 80%;
+    width: 100%;
+    max-width: 1200px;
 
     &__titulo {
         text-align: center;
@@ -12,21 +13,23 @@
     }
     &__galeria {
         display: flex;
-        gap: 10px;
+        gap: 20px;
         flex-wrap: wrap;
         border-radius: 8px;
-        padding: 2rem;
-        overflow-x: hidden;
+        padding: 1rem 0;
         justify-content: center;
     }
     &__item {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        max-width: 300px;
         margin-bottom: 2rem;
         border: 4px solid #333;
         border-radius: 8px;
         background-color: variaveis.$bg-secundario;
+        overflow: hidden;
     }
     &__img-card img {
         border-radius: 4px 4px 8px 8px;
