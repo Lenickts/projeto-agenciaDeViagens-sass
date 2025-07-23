@@ -222,7 +222,7 @@
   transition: all 0.5s ease;
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 768px) {
   /* RESET COMPLETO DAS MARGENS PADRÃO */
   body, html {
     margin: 0;
@@ -343,7 +343,19 @@
     padding: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1038px) {
+  /* CONTATO */
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact__input-container {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
   body {
     display: flex;
     flex-direction: column;

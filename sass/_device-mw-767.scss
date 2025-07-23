@@ -1,6 +1,6 @@
 @use 'variaveis';
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 768px) {
     /* RESET COMPLETO DAS MARGENS PADRÃO */
     body, html {
         margin: 0;
@@ -140,6 +140,20 @@
             align-items: center;
             gap: 10px;
             padding: 0;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width: 1038px) {
+    /* CONTATO */
+    .contact {
+        flex-direction: column;
+        gap: 20px;
+
+        &__input-container {
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
         }
     }
 }
